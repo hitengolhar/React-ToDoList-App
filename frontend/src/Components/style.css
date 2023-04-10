@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(160, 81, 81);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+h1 {
+  padding: 4px;
+  margin: 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.label {
+  background-color: aliceblue;
+  border-radius: 2px;
+  padding: 5px;
+}
+.inputBox {
+  width: auto;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.form-control {
+  font-size: 20px;
+}
+.btn-light {
+  background-color: rgb(53, 107, 53);
+  font-size: 20px;
+  /* height: 30px; */
+  padding: 5px;
+  border-radius: 2px;
+}
+.ul {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 20px;
+  list-style-type: circle;
+}
+li {
+  position: relative;
+  background-color: azure;
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.btn {
+  position: relative;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 25px;
+  float: right;
+  padding: 1px 3px;
+  /* outline: none; */
+  /* border-radius: 1px; */
+  /* border: 1px solid rgb(52, 106, 52); */
+}
